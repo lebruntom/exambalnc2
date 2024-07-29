@@ -1,0 +1,41 @@
+.update_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 60vw;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.update_form h2 {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.update_form input,
+.update_form select {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.update_form button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #333;
+  color: #555;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.update_form button:hover {
+  background-color: #555;
+}
